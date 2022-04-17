@@ -43,6 +43,7 @@ typeset -gU cdpath fpath mailpath path
 
 # Set the list of directories that Zsh searches for programs.
 path=(
+	$HOME/.config/emacs/bin
   /Applications/MacPorts/EmacsMac.app/Contents/MacOS
   /opt/local/{bin,sbin}
   /usr/local/{bin,sbin}
